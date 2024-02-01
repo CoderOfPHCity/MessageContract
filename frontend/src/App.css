@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(9, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.App{
+  background-color: antiquewhite;
+  margin: auto;
+  width: 70%;
+  margin-top: 70px;
+}
+
+.form-container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+}
+
+input{
+  width: 425px;
+  padding: 12px;
+  margin: 16px;
+  border-radius: 16px;
+}
+
+button{
+  margin-bottom: 6px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+  background-color: #2980b9;
+}
+
